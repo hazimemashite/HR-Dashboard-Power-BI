@@ -1,90 +1,71 @@
-# 👥 HR Dashboard 2019
+# HR Dashboard 2019 (Power BI Project)
 
-An interactive Power BI dashboard that provides insights into key HR metrics, helping stakeholders better understand employee demographics, satisfaction, and workforce distribution.
+![HR Dashboard Overview]
+![HR Dashboard Performance]
+
+## 📊 Project Overview
+
+This project is an interactive Power BI dashboard visualizing Human Resources data for the year 2019. The dashboard provides comprehensive insights into employee demographics, performance, and organizational metrics to support strategic HR decision-making.
+
+The dashboard consists of **two pages**:
+- **Home Page**: Offers a high-level overview of employee demographics and organizational structure.
+- **Performance Page**: Focuses on performance evaluations, salary analysis, survey feedback, termination reasons, and recruitment sources.
 
 ---
 
 ## 🎯 Project Goals & Context
 
-- **Objective**:  
-  To build a comprehensive HR analytics dashboard that empowers HR teams and leadership to make data-driven decisions.
+The main goals of this HR dashboard project were to:
 
-- **Context**:  
-  Built using a fictional 2019 HR dataset, this project simulates a real-world scenario to demonstrate common HR insights and Power BI capabilities.
+- Consolidate HR data into a centralized, interactive visual format.
+- Identify trends in employee satisfaction, age distribution, department size, and job roles.
+- Assess key HR performance indicators such as:
+  - Employee performance levels
+  - Salary distribution and average wages
+  - Termination reasons and employment status
+  - Recruitment channels and effectiveness
+- Enable HR and management to make data-driven decisions related to workforce planning, retention strategies, and recruitment efforts.
 
-- **Use Case**:  
-  Suitable for HR reviews, diversity assessments, workforce planning, and executive reporting.
-
----
-
-## 📈 Key Metrics
-
-- **No. of Active Employees**: `207`  
-- **Average Age**: `40`  
-- **Employee Satisfaction Level**: `3.89` (scale of 1 to 5)
+This project simulates a real-world HR scenario from 2019, enabling hands-on exploration of how analytics can drive business outcomes in human resource management.
 
 ---
 
-## 📊 Workforce Distribution
+## 📌 Key Insights from the Dashboard
 
-### 🔹 Headcount by Position
-Shows the number of employees in each job role:
-- Production Technician I: 85  
-- Production Technician II: 31  
-- Area Sales Manager: 23  
-- (Additional positions available in the visual scroll)
+### **Page 1 – Home Page**
+- **Active Employees**: 207 employees
+- **Average Age**: 40 years
+- **Employee Demographics**:
+  - Majority aged between 30s and 40s
+  - Nearly equal male-female ratio (56% female, 44% male)
+  - 96% are US Citizens
+- **Department & Role Breakdown**:
+  - Production has the highest headcount
+  - Common roles include Production Technician, Area Sales Manager, IT Support
+- **Marital Status**:
+  - 48.8% Single, 37.2% Married
 
-### 🔹 Headcount by Department
-Highlights the employee distribution by department:
-- Production: 126  
-- IT/IS: 40  
-- Sales: 26  
-- Others: Admin Offices, Software Engineering, Executive Office
-
-### 🔹 Headcount by Age Group
-Breakdown of employees by age range:
-- 30s: 104  
-- 40s: 63  
-- 50s: 26  
-- Others: 20s (9), 60+ (5)
-
-### 🔹 Headcount by Sex
-Gender distribution:
-- Female: 116 (56.04%)  
-- Male: 91 (43.96%)
-
-### 🔹 Headcount by Marital Status
-Marital breakdown:
-- Single: 48.79%  
-- Married: 37.2%  
-- Divorced & Separated: ~12%
+### **Page 2 – Performance Page**
+- **Salary Overview**:
+  - Total Salary: RM14.63M
+  - Average Monthly Wage: RM5.89K
+- **Survey & Satisfaction Scores**:
+  - Employee Satisfaction: 3.89 / 5
+  - Involvement Levels: 3.01 – 4.12 / 5
+- **Performance Levels**:
+  - 78% “Fully Meets Expectations”
+  - 8% rated as “Exceeds”
+- **Termination Reasons**:
+  - Most common: seeking another position, dissatisfaction, better pay
+- **Recruitment Sources**:
+  - Top platforms: Indeed, LinkedIn, Employee Referrals
 
 ---
 
-## 🧠 Dashboard Features
+## 🛠️ Tools & Technologies
 
-- Clean, professional design with visual KPIs
-- Interactive elements: Page navigation buttons
-- Gauge visualization for satisfaction tracking
-- Multiple demographic breakdowns for deep HR insight
-
----
-
-## 📂 How to Use
-
-1. Clone or download the repository.
-2. Open the `.pbix` file using Power BI Desktop.
-3. Interact with filters and visuals to explore insights.
+- **Power BI** – for data modeling, transformation, and interactive visualizations
+- **DAX (Data Analysis Expressions)** – to create custom measures and calculated columns
+- **Excel / CSV** – as the primary data source (simulated for HR records)
 
 ---
-
-## 📁 Dataset
-
-The dashboard is based on a fictional HR dataset representing employee data from 2019. You may customize the dataset or replace it with real organizational data.
-
----
-
-## 📬 Contact
-
-If you have any questions or suggestions, feel free to open an issue or connect via GitHub!
-
